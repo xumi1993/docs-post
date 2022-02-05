@@ -9,6 +9,7 @@ hide-toc: true
 :titlesonly:
 
 links/index
+seismo/index
 prog/index
 ```
 

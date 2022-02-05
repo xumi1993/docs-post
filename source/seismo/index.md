@@ -1,0 +1,6 @@
+# Seismological tools
+
+```{toctree}
+
+gmt
+```
