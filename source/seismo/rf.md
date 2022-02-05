@@ -64,7 +64,9 @@
     :class: seealso
     Herrmann, R. B. (2013) Computer programs in seismology: An evolving tool for instruction and research, Seism. Res. Lettr. 84, 1081-1088, doi:10.1785/0220110096
     ```
-- [hk & ccp](http://www.eas.slu.edu/People/LZhu/home.html): Receiver function package (deconvolution and H-k stacking) & Common-Conversion-Point (CCP) stacking of receiver functions
+- [hk & ccp](http://www.eas.slu.edu/People/LZhu/home.html): Prof. Zhu Lupei's code
+    - {download}`hk1.3 <http://www.eas.slu.edu/People/LZhu/downloads/hk1.3.tar>`: Receiver function package (deconvolution and H-k stacking)
+    - {download}`ccp1.0 <http://www.eas.slu.edu/People/LZhu/downloads/ccp1.0.tar>`: Common-Conversion-Point (CCP) stacking of receiver functions
 - [H-k-c](https://github.com/ljt-uiuc/H-k-c): Generalized H-k after harmonic correction on receiver functions
    ```{admonition} Citation
     :class: seealso
@@ -85,3 +87,9 @@
     :class: seealso
     Dreiling, Jennifer; Tilmann, Frederik (2019): BayHunter - McMC transdimensional Bayesian inversion of receiver functions and surface wave dispersion. GFZ Data Services. http://doi.org/10.5880/GFZ.2.4.2019.001
     ```
+- [RfSurfHmc](https://github.com/nqdu/RfSurfHmc): Joint inversion of Receiver Function and Surface Wave Disperion by Hamilton Monte Carlo Method
+
+### Linear inversion
+- [CPS330](http://www.eas.slu.edu/eqc/eqccps.html) Collection of programs for calculating theorectical seismogram, receiver function, surface wave dispersion curve et al.
+    - `rftn96` for receiver function inversion
+    - `joint96` for joint inversion
