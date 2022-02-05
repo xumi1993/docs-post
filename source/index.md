@@ -15,6 +15,6 @@ seismo/index
 :caption: Development
 :hidden:
 
-
-GitHub Repository <https://github.com/pradyunsg/furo>
+Home page <https://xumijian.me>
+GitHub Repository <https://github.com/xumi1993/docs-post>
 ```
