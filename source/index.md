@@ -2,17 +2,18 @@
 hide-toc: true
 ---
 
-# Oh my memo
+# Oh My Memo
 
 
 ```{toctree}
 :titlesonly:
 
-seismo/index
+links/index
+prog/index
 ```
 
 ```{toctree}
-:caption: Development
+:caption: Links
 :hidden:
 
 Home page <https://xumijian.me>
