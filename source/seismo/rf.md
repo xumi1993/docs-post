@@ -5,7 +5,7 @@
 - [Raysum](https://home.cc.umanitoba.ca/~frederik/Software/): Ray-theoretical modelling of teleseismic waves in dipping, anisotropic structures
     
     - [PyRaysum](https://paudetseis.github.io/pyraysum/): Teleseismic body wave modeling through stacks of (dipping/anisotropic) layers
-    - [pyfwrd](https://github.com/NoisyLeon/pyfwrd)
+    - [pyfwrd](https://github.com/NoisyLeon/pyfwrd): A forward modelling code for surface wave, receiver functions and shear wave splitting, given tilted hexagonal symmetric media
 - [Telewavesim](https://paudetseis.github.io/Telewavesim/): Teleseismic body wave modeling through stacks of (submarine/anisotropic) layers
 ## Receiver function Process
 - [Seispy](https://seispy.xumijian.me)
