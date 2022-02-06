@@ -38,6 +38,7 @@ extensions = ['sphinx.ext.githubpages',
               "sphinx.ext.mathjax",
               "sphinx.ext.todo",
               "sphinx.ext.viewcode",
+              "sphinxcontrib.icon",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -90,17 +91,16 @@ html_last_updated_fmt = "%Y 年 %m 月 %d 日"
 html_title = project
 html_css_files = ["custom.css"]
 
-html_favicon = os.path.abspath(os.path.join('.', '_static', 'logo.ico'))
 # html_logo = os.path.abspath(os.path.join('.', '_static', 'logo.ico'))
 
 html_context = {
-    "favicon": "favicon.ico",
+    "favicon": "logo.ico",
     "display_github": True,
     "github_user": github_user,
     "github_repo": github_repo,
     "github_version": "main",
     "conf_py_path": "/source/",
-    "theme_vcs_pageview_mode": "blob",
+    # "theme_vcs_pageview_mode": "blob",
     "menu_links": [
         (   '<i class="fa fa-home"></i> 个人主页',
             "https://xumijian.me/",

@@ -14,6 +14,20 @@
 ### 2D modelling
 - [PSV Hybrid RF](https://github.com/Geolab-USTC/PSV_Hybrid_RF): Calculating synthetic RF in two-dimensional localized hetergeneous structures based on PSV Hybrid method (GRT-FD)
 
+### 3D modolling
+- [SPECFEM3D_Cartesian](https://specfem3d.readthedocs.io/en/latest/): Simulates seismic wave propagation at the local or regional scale and performs full waveform imaging (FWI) or adjoint tomography based upon the spectral-element method (SEM). The injection of teleseismic wavefield is avaliable with SEM-FK and AxisSEM method. See `COUPLE_WITH_INJECTION_TECHNIQUE` in `Par_file`
+  - SEM-FK: Plane wavefield injection coupling with Cartesian SEM domain.
+    ```{admonition} Citation
+    :class: seealso
+    Tong, P., Komatitsch, D., Tseng, T.-L., Hung, S.-H., Chen, C.-W., Basini, P., and Liu, Q. (2014), A 3-D spectral-element and frequency-wave number hybrid method for high-resolution seismic array imaging, Geophys. Res. Lett., 41, 7025– 7034, doi:10.1002/2014GL061644.
+    ```
+  - [AxiSEM](https://seg.ethz.ch/software/axisem.html): 3-D seismic wavefields propagation in axisymmetric media
+    ```{admonition} Citation
+    :class: seealso
+    
+    T. Nissen-Meyer, M. van Driel, S. C. Staehler, K. Hosseini, S. Hempel, L. Auer, A. Colombi and A. Fournier: "AxiSEM: broadband 3-D seismic wavefields in axisymmetric media", Solid Earth, 5, 425-445, 2014 doi:10.5194/se-5-425-2014
+    ```
+
 ## Receiver function Process
 
 ### Python
@@ -65,8 +79,8 @@
     Herrmann, R. B. (2013) Computer programs in seismology: An evolving tool for instruction and research, Seism. Res. Lettr. 84, 1081-1088, doi:10.1785/0220110096
     ```
 - [hk & ccp](http://www.eas.slu.edu/People/LZhu/home.html): Prof. Zhu Lupei's code
-    - {download}`hk1.3 <http://www.eas.slu.edu/People/LZhu/downloads/hk1.3.tar>`: Receiver function package (deconvolution and H-k stacking)
-    - {download}`ccp1.0 <http://www.eas.slu.edu/People/LZhu/downloads/ccp1.0.tar>`: Common-Conversion-Point (CCP) stacking of receiver functions
+    - [{icon}`fas fa-download` hk1.3](http://www.eas.slu.edu/People/LZhu/downloads/hk1.3.tar): Receiver function package (deconvolution and H-k stacking)
+    - [{icon}`fas fa-download` ccp1.0](http://www.eas.slu.edu/People/LZhu/downloads/ccp1.0.tar): Common-Conversion-Point (CCP) stacking of receiver functions
 - [H-k-c](https://github.com/ljt-uiuc/H-k-c): Generalized H-k after harmonic correction on receiver functions
    ```{admonition} Citation
     :class: seealso

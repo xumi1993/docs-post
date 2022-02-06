@@ -12,4 +12,5 @@ dependencies:
   - obspy=1.2.2
   - pip:
     - sphinx-cjkspace
+    - sphinx-icon
     - furo
