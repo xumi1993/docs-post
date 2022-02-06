@@ -49,6 +49,7 @@
 
 ## Geographic Dataset
 
+### Global dataset
 - [gshhg](http://www.soest.hawaii.edu/wessel/gshhg/): Global Self-consistent Hierarchical High-resolution Geography
     - [Readme of gshhg-gmt](https://github.com/GenericMappingTools/gshhg-gmt#readme)
     - [GSHHG: 全球高分辨率海岸线数据](https://docs.gmt-china.org/latest/dataset/gshhg/)
@@ -67,6 +68,18 @@
     ```
     - [PB2002: 全球板块边界数据](https://docs.gmt-china.org/latest/dataset/PB2002/)
 
+- [World Geologic Maps](https://certmapper.cr.usgs.gov/data/apps/world-maps/): Collection of geologic maps
+  - [Asia Pacific Region](https://pubs.er.usgs.gov/publication/ofr97470F)
+  - [South Asia](https://pubs.er.usgs.gov/publication/ofr97470C)
+  - [geo3al: 中国及邻区地质图数据](https://docs.gmt-china.org/6.2/dataset-CN/geo3al/)
+
+
 ### Chinese dataset
 
 - [中国地理空间数据集](https://docs.gmt-china.org/latest/dataset-CN/)
+
+
+### Unformatted dataset
+
+- [全国地震活动断层分布图](https://activefault-datacenter.cn/faultzone/faultzone.html)
+- [全国活动断层展示系统](http://www.neotectonics.cn/arcgis/apps/webappviewer/index.html?id=3c0d8234c1dc43eaa0bec3ea03bb00bc)

@@ -17,16 +17,16 @@
 ### 3D modolling
 - [SPECFEM3D_Cartesian](https://specfem3d.readthedocs.io/en/latest/): Simulates seismic wave propagation at the local or regional scale and performs full waveform imaging (FWI) or adjoint tomography based upon the spectral-element method (SEM). The injection of teleseismic wavefield is avaliable with SEM-FK and AxisSEM method. See `COUPLE_WITH_INJECTION_TECHNIQUE` in `Par_file`
   - SEM-FK: Plane wavefield injection coupling with Cartesian SEM domain.
-    ```{admonition} Citation
+    :::{admonition} Citation
     :class: seealso
-    Tong, P., Komatitsch, D., Tseng, T.-L., Hung, S.-H., Chen, C.-W., Basini, P., and Liu, Q. (2014), A 3-D spectral-element and frequency-wave number hybrid method for high-resolution seismic array imaging, Geophys. Res. Lett., 41, 7025– 7034, doi:10.1002/2014GL061644.
-    ```
+    Tong, P., Komatitsch, D., Tseng, T.-L., Hung, S.-H., Chen, C.-W., Basini, P., and Liu, Q. (2014), A 3-D spectral-element and frequency-wave number hybrid method for high-resolution seismic array imaging, Geophys. Res. Lett., 41, 7025– 7034, [doi:10.1002/2014GL061644](https://doi.org/10.1002/2014GL061644).
+    :::
   - [AxiSEM](https://seg.ethz.ch/software/axisem.html): 3-D seismic wavefields propagation in axisymmetric media
-    ```{admonition} Citation
+    :::{admonition} Citation
     :class: seealso
-    
-    T. Nissen-Meyer, M. van Driel, S. C. Staehler, K. Hosseini, S. Hempel, L. Auer, A. Colombi and A. Fournier: "AxiSEM: broadband 3-D seismic wavefields in axisymmetric media", Solid Earth, 5, 425-445, 2014 doi:10.5194/se-5-425-2014
-    ```
+
+    T. Nissen-Meyer, M. van Driel, S. C. Staehler, K. Hosseini, S. Hempel, L. Auer, A. Colombi and A. Fournier: "AxiSEM: broadband 3-D seismic wavefields in axisymmetric media", Solid Earth, 5, 425-445, 2014 [doi:10.5194/se-5-425-2014](https://doi.org/10.5194/se-5-425-2014)
+    :::
 
 ## Receiver function Process
 
@@ -34,16 +34,16 @@
 
 - [Seispy](https://seispy.xumijian.me): Python Module for seismology and receiver functions
     - Batch calculation
-    - GUI picking 
+    - GUI picking
     - H-k stacking
     - CCP stacking
     - Azimuth anisotropic estimation
     - Slant stacking
 - [rf](https://rf.readthedocs.io/): Python framework for receiver function analysis.
-    ```{admonition} Citation
+    :::{admonition} Citation
     :class: seealso
-    Tom Eulenfeld (2020), rf: Receiver function calculation in seismology, Journal of Open Source Software, 5(48), 1808, doi: 10.21105/joss.01808
-    ```
+    Tom Eulenfeld (2020), rf: Receiver function calculation in seismology, Journal of Open Source Software, 5(48), 1808, [doi:10.21105/joss.01808](https://doi.org/10.21105/joss.01808)
+    :::
     - Batch calculation
     - CCP stacking
 - [RfPy](https://paudetseis.github.io/rfpy/)
@@ -54,10 +54,10 @@
 ### Matlab
 
 - [Funclab](https://robporritt.wordpress.com/software/): Matlab based GUI for handling receiver functions
-    ```{admonition} Citation
+    :::{admonition} Citation
     :class: seealso
-    Porritt, R. W. and Miller, M. S., (2018), Updates to FuncLab, a Matlab based GUI for handling receiver functions. Computers and Geoscience, 111, 260-271, doi:10.1016/j.cageo.2017.11.022
-    ```
+    Porritt, R. W. and Miller, M. S., (2018), Updates to FuncLab, a Matlab based GUI for handling receiver functions. Computers and Geoscience, 111, 260-271, [doi:10.1016/j.cageo.2017.11.022](https://doi.org/10.1016/j.cageo.2017.11.022)
+    :::
 - [SplitRFLab](https://github.com/xumi1993/SplitRFlab): A Matlab toolbox of processing receiver functions and shear wave splitting
     ```{admonition} Citation
     :class: seealso
@@ -66,18 +66,18 @@
     - RF codes invoked from [processRFmatlab](https://github.com/iwbailey/processRFmatlab): Matlab functions and scripts for working with receiver functions
 
 - [Crazyseismic](https://github.com/yucqSUSTech/Crazyseismic): A MATLAB GUI‐based software package for passive seismic data preprocessing
-    ```{admonition} Citation
+    :::{admonition} Citation
     :class: seealso
-     Yu, C.Q., Zheng, Y.C., Shang, X.F. (2017), Crazyseismic: A MATLAB GUI-based software package for passive seismic data preprocessing, Seismol. Res. Lett., 88(2A), 410-415, doi: 10.1785/0220160207.
-    ```
+     Yu, C.Q., Zheng, Y.C., Shang, X.F. (2017), Crazyseismic: A MATLAB GUI-based software package for passive seismic data preprocessing, Seismol. Res. Lett., 88(2A), 410-415, [doi:10.1785/0220160207](https://doi.org/10.1785/0220160207)
+    :::
 
 ### C/Fortran
 
 - [CPS330](http://www.eas.slu.edu/eqc/eqccps.html): Collection of programs for calculating theorectical seismogram, receiver function, surface wave dispersion curve et al.
-    ```{admonition} Citation
+    :::{admonition} Citation
     :class: seealso
-    Herrmann, R. B. (2013) Computer programs in seismology: An evolving tool for instruction and research, Seism. Res. Lettr. 84, 1081-1088, doi:10.1785/0220110096
-    ```
+    Herrmann, R. B. (2013) Computer programs in seismology: An evolving tool for instruction and research, Seism. Res. Lettr. 84, 1081-1088, [doi:10.1785/0220110096](https://doi.org/10.1785/0220110096)
+    :::
 - [hk & ccp](http://www.eas.slu.edu/People/LZhu/home.html): Prof. Zhu Lupei's code
     - [{icon}`fas fa-download` hk1.3](http://www.eas.slu.edu/People/LZhu/downloads/hk1.3.tar): Receiver function package (deconvolution and H-k stacking)
     - [{icon}`fas fa-download` ccp1.0](http://www.eas.slu.edu/People/LZhu/downloads/ccp1.0.tar): Common-Conversion-Point (CCP) stacking of receiver functions
@@ -92,18 +92,18 @@
 
 ### Bayesian inversion
 - [MC3deconv](https://github.com/akuhara/MC3deconv): Bayeisan inversion to recover Green's functions of receiver-side structures from teleseismic waveforms
-   ```{admonition} Citation
+    :::{admonition} Citation
     :class: seealso
-    T. Akuhara, M. Bostock, A. Plourde, M. Shinohara (2019) Beyond Receiver Functions: Green's Function Estimation by Trans-Dimensional Inversion and Its Application to OBS Data, Journal of Geophysical Research: Solid Earth, https://doi.org/10.1029/2018JB016499
-   ```
+    T. Akuhara, M. Bostock, A. Plourde, M. Shinohara (2019) Beyond Receiver Functions: Green's Function Estimation by Trans-Dimensional Inversion and Its Application to OBS Data, Journal of Geophysical Research: Solid Earth, [doi:10.1029/2018JB016499](https://doi.org/10.1029/2018JB016499)
+    :::
 - [BayHunter](https://jenndrei.github.io/BayHunter/): McMC transdimensional Bayesian inversion of surface wave dispersion and receiver functions
-   ```{admonition} Citation
+    :::{admonition} Citation
     :class: seealso
-    Dreiling, Jennifer; Tilmann, Frederik (2019): BayHunter - McMC transdimensional Bayesian inversion of receiver functions and surface wave dispersion. GFZ Data Services. http://doi.org/10.5880/GFZ.2.4.2019.001
-    ```
+    Dreiling, Jennifer; Tilmann, Frederik (2019): BayHunter - McMC transdimensional Bayesian inversion of receiver functions and surface wave dispersion. GFZ Data Services. [doi:10.5880/GFZ.2.4.2019.001](http://doi.org/10.5880/GFZ.2.4.2019.001)
+    :::
 - [RfSurfHmc](https://github.com/nqdu/RfSurfHmc): Joint inversion of Receiver Function and Surface Wave Disperion by Hamilton Monte Carlo Method
 
-### Linear inversion
+### Gradient inversion
 - [CPS330](http://www.eas.slu.edu/eqc/eqccps.html) Collection of programs for calculating theorectical seismogram, receiver function, surface wave dispersion curve et al.
     - `rftn96` for receiver function inversion
-    - `joint96` for joint inversion
+    - `joint96` for joint inversion with surface wave dispersion
