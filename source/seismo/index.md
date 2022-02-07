@@ -3,4 +3,5 @@
 ```{toctree}
 
 gmt
+specfem3d/index
 ```
