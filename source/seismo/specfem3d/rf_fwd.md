@@ -16,3 +16,8 @@ For RF simulation, we invoked SEM-FK with plane wave injected to compute RFs, So
 - `src_rec/sources_setXX.dat`: Map of source set `XX` and event id `YY`. The first field is read to define `YY`.
 - `src_rec/FKmodel_YY.dat`
 - `src_rec/STATION_YY.dat`
+- `fwat_params/FWAT.PAR`: 4 parameters are required for RF calculation.
+    - `TSHIFT`: Time shift before P
+    - `F0`: Gauss factor
+    - `MAXIT`: Maximum iterations
+    - `MINDERR`: Minimum residuals 
