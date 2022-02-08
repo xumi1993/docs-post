@@ -17,6 +17,7 @@
 ### 3D modolling
 - [SPECFEM3D_Cartesian](https://specfem3d.readthedocs.io/en/latest/): Simulates seismic wave propagation at the local or regional scale and performs full waveform imaging (FWI) or adjoint tomography based upon the spectral-element method (SEM). The injection of teleseismic wavefield is avaliable with SEM-FK and AxisSEM method. See `COUPLE_WITH_INJECTION_TECHNIQUE` in `Par_file`
   - SEM-FK: Plane wavefield injection coupling with Cartesian SEM domain.
+    Refer to {any}`../seismo/specfem3d/index` for usage.
     :::{admonition} Citation
     :class: seealso
     Tong, P., Komatitsch, D., Tseng, T.-L., Hung, S.-H., Chen, C.-W., Basini, P., and Liu, Q. (2014), A 3-D spectral-element and frequency-wave number hybrid method for high-resolution seismic array imaging, Geophys. Res. Lett., 41, 7025– 7034, [doi:10.1002/2014GL061644](https://doi.org/10.1002/2014GL061644).
