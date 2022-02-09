@@ -43,7 +43,7 @@ NPROC_ETA                       = 2
 
 - `NEX_XI`: Number of elements along `X` directory.
 - `NEX_ETA`: Number of elements along `Y` directory.
-- `NPROC` represent number of MPI processors along xi and eta.
+- `NPROC_XI` and `NPROC_ETA` represent number of MPI processors along xi and eta, respectively. The `NPROC` in the `Par_file` should be `NPROC_XI` * `NPROC_ETA`.
 
 :::{note}
 If `USE_REGULAR_MESH` is set to `.true.`, number of elements must be multiple of `NPROC`. Otherwise, number of elements must be multiple of 8. 
