@@ -52,3 +52,5 @@ mpirun -np 4 ./bin/xgenerate_databases
 ```
 mpirun -np 4 ./bin/xfwat0_forward_data M00 setXX rf
 ```
+
+RFs will be saved into `data/YY` with SAC format as `knetwk.kstnm.kcmpnm.rf.sac`
