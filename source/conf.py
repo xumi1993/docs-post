@@ -21,7 +21,7 @@ project = 'Oh My Memo'
 copyright = '2022, Mijian Xu'
 author = 'Mijian Xu'
 github_user = "xumi1993"
-github_repo = "docs-post"
+github_repo = "docs.post"
 github_url = "docs.xumijian.me"
 
 # -- General configuration ---------------------------------------------------

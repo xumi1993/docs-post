@@ -7,6 +7,7 @@ hide-toc: true
 
 ```{toctree}
 :titlesonly:
+:maxdepth: 2
 
 links/index
 seismo/index
