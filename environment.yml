@@ -10,7 +10,9 @@ dependencies:
   - sphinx-design
   - myst-nb
   - obspy=1.2.2
+  - seispy
   - pip:
+    - sphinx-gallery
     - sphinx-cjkspace
     - sphinx-icon
     - furo

@@ -1,4 +1,4 @@
-# Useful links of GMT
+# GMT
 
 ## Download Link
 

@@ -1,4 +1,4 @@
-# Reciver Function Forward simulation with Specfem3D_FWATR
+# Receiver Function Forward simulation with Specfem3D_FWATR
 
 :::{attention}
 The Specfem3D_FWATR is under developing, so it has not been open accessed.
@@ -11,7 +11,11 @@ For RF simulation, we invoked SEM-FK with plane wave injected to compute RFs, So
 ### Common configures
 - `DATA/Par_file`
 - `DATA/meshfem3D_files`
+- `DATA/CMTSOLUTION`
 
+:::{note}
+The parameters in the `DATA/CMTSOLUTION` do not work.
+:::
 ### Exclusive configures
 - `src_rec/sources_setXX.dat`: Map of source set `XX` and event id `YY`. The first field is read to define `YY`.
 - `src_rec/FKmodel_YY.dat`

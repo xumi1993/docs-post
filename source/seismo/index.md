@@ -3,6 +3,6 @@
 ```{toctree}
 :titlesonly:
 
-gmt
 specfem3d/index
+matplotlib/index
 ```
