@@ -6,13 +6,14 @@ Receiver Functions order by back-azimuth
 import numpy as np
 from seispy.rfcorrect import RFStation
 import matplotlib.pyplot as plt
-import matplotlib
 
 
 def plot(enf=3, xlim=(-2, 30)):
     rfsta = RFStation('./exrfs')
-    fig = plt.figure(figsize=(4, 8))
+    fig = plt.figure(figsize=(4, 6), dpi=120)
     ax = fig.add_subplot()
+    fig.subplots_adjust(left=0.4)
+    ax.grid(axis='x')
     bound = np.zeros(rfsta.rflength)
     for i in range(rfsta.ev_num):
         datar = rfsta.datar[i] * enf + (i + 1)

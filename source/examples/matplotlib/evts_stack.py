@@ -28,11 +28,10 @@ def plot(evts_file='data/binned_evts.txt'):
     for i, evt in enumerate(evts_stack):
         idx_ba = np.where(baz_bins == evt[0])[0]
         idx_ra = np.where((rayp_bins > evt[1]-0.0005) & (rayp_bins < evt[1]+0.0005))[0]
-        # print(idx_ba, idx_ra)
         hist[idx_ba, idx_ra] = evt[2]
-    fig = plt.figure(figsize=(6, 6))
-    cax = fig.add_axes([0.1, 0.2, 0.05, 0.5])
-    ax = fig.add_axes([0.30, 0.1, 0.70, 0.7], polar=True)
+    fig = plt.figure(figsize=(7, 7))
+    cax = fig.add_axes([0.1, 0.15, 0.05, 0.5])
+    ax = fig.add_axes([0.30, 0.1, 0.6, 0.6], polar=True)
     ax.set_theta_direction(-1)
     ax.set_theta_zero_location("N")
     for i, row in enumerate(hist):
