@@ -1,7 +1,7 @@
 """
-Colored histgram
+Colored histogram
 ------------------
-This is en example of histgram with colored bars.
+This is en example of histogram with colored bars.
 
 """
 

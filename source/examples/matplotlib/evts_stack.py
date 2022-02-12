@@ -14,7 +14,6 @@ from obspy.imaging.cm import get_cmap
 def plot(evts_file='data/binned_evts.txt'):
     evts_stack = np.loadtxt(evts_file)
     cmap = get_cmap('YlGnBu')
-    print(np.sum(evts_stack[:, 2]))
     dh = 0.004
     dww = 30
     rayp_bins = np.arange(0.04, 0.08+dh, dh).astype(float)
