@@ -52,6 +52,9 @@ mpirun -np 4 $prog gaus01.dat $topo_dir $model_dir vs $dvs $sigma
 ```
 
 ## Virtualization of GLL data format
+
+### Convert binary file to npz
+
 I revise code of `auxiliaries/project_and_combine_vol_data_on_regular_grid.f90` for converting materials form the GLL format to npz format.
 ```bash
 data_filename=vs
@@ -69,7 +72,34 @@ mpirun -np $NPROC ./bin/xproject_and_combine_vol_data_on_regular_grid $data_file
 
 :::{note}
 The format of each line in `fd_proj_grid.txt` is
+
 - Starting Coordinates
 - Sampling of points
 - Number of points
 :::
+
+### Slice and plotting
+
+Now using `matplotlib` to plot cross sections
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+def plot(name='vs'):
+    data = np.load('output_vtk/{}_projected.npz'.format(name))
+    center_y = int((data['y'].size-1)/2)
+    sec = data[name][:, center_y, :].T
+    print(data['z'])
+    plt.pcolormesh(data['x'], data['z'], sec, cmap='jet_r')
+    plt.xlim([data['x'][0], data['x'][-1]])
+    plt.ylim([data['z'][0], data['z'][-1]])
+    plt.xlabel('X (m)')
+    plt.ylabel('Z (m)')
+    plt.savefig('{}_sec_y{:.2f}.png'.format(name, data['y'][center_y]), bbox_inches='tight')
+
+if __name__ == '__main__':
+    plot('vs')
+```
+
+![](vs_sec_y0.00.png)
