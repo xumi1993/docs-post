@@ -14,5 +14,6 @@ dependencies:
   - pip:
     - sphinx-gallery
     - sphinx-cjkspace
+    - sphinxcontrib-bibtex
     - sphinx-icon
     - furo
