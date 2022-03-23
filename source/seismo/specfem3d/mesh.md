@@ -112,7 +112,7 @@ G(\omega) = e^{\frac{{\omega}^2}{4{\alpha}^2}}
 \omega = 2{\pi}f
 :::
 
-where {math}`f` is the physical frequency, {math}`\alpha` is the Gaussian Factor. With the {math}`f` dependent on sampling rate and number of samples, the digital Gaussian factor can be expressed as 
+where {math}`f` is the physical frequency, {math}`\alpha` is the Gaussian Factor. With the {math}`f` dependent on sampling rate and number of samples, the digital Gaussian filter can be expressed as 
 :::{math}
 G(n) = \frac{1}{dt}e^{-\left( \frac{{\pi}f(n)}{\alpha} \right)^2}
 
@@ -120,7 +120,7 @@ f(n) = \frac{n}{N \cdot dt}
 :::
 
 where the {math}`f(n)` is the normalized frequency at {math}`n'th` data point. {math}`N` is the number of data points. {math}`dt` is the sampling interval.
-It is more common to define the cut-off frequency as the half power point: where the filter response is reduced to 0.5 (-3 dB) in the power spectrum, or {math}`1/\sqrt{2} \approx 0.707` in the amplitude spectrum. Therefore, the normalized cutoff frequency is 
+It is more common to define the cutoff frequency as the half power point: where the filter response is reduced to 0.5 (-3 dB) in the power spectrum, or {math}`1/\sqrt{2} \approx 0.707` in the amplitude spectrum. Therefore, the normalized cutoff frequency is 
 
 :::{math}
 f_{cut} = \frac{\alpha}{\pi}\sqrt{-\ln(0.707dt)}
