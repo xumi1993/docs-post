@@ -112,7 +112,7 @@ G(\omega) = e^{\frac{{\omega}^2}{4{\alpha}^2}}
 \omega = 2{\pi}f
 :::
 
-where {math}`f` is the physical frequency, {math}`\alpha` is the Gaussian Factor. With the {math}`f` is dependent on sampling rate and number of samples, the digital Gaussian factor can be expressed as 
+where {math}`f` is the physical frequency, {math}`\alpha` is the Gaussian Factor. With the {math}`f` dependent on sampling rate and number of samples, the digital Gaussian factor can be expressed as 
 :::{math}
 G(n) = \frac{1}{dt}e^{-\left( \frac{{\pi}f(n)}{\alpha} \right)^2}
 
