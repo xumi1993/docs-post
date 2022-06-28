@@ -21,11 +21,11 @@ The `DATA/CMTSOLUTION` must exist but its parameters will not work.
 - `src_rec/FKmodel_YY.dat`
 - `src_rec/STATION_YY.dat`
 - `fwat_params/FWAT.PAR`: 4 parameters are required for RF calculation, Others are the same as FWAT.
-    - `TSHIFT`: Time shift before P
+    - `RF_TSHIFT`: Time shift before P
     - `NUM_FILTER`: Number of Gaussian filters applied on RFs.
     - `F0`: Array of Gaussian factors
     - `MAXIT`: Maximum iterations
-    - `MINDERR`: Minimum residuals 
+    - `MINDERR`: Minimum residuals
 
 ### Meshes and Parameters
 

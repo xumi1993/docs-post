@@ -107,35 +107,22 @@ If the size of each element bas been determined as 5 km. the maximum frequency s
 A Gaussian low pass filter can be expressed as in frequency domain
 
 :::{math}
-G(\omega) = e^{\frac{{\omega}^2}{4{\alpha}^2}}
+G(\omega) = e^{-\frac{{\omega}^2}{4{\alpha}^2}}
 
 \omega = 2{\pi}f
 :::
 
-where {math}`f` is the physical frequency, {math}`\alpha` is the Gaussian Factor. With the {math}`f` dependent on sampling rate and number of samples, the digital Gaussian filter can be expressed as 
-:::{math}
-G(n) = \frac{1}{dt}e^{-\left( \frac{{\pi}f(n)}{\alpha} \right)^2}
-
-f(n) = \frac{n}{N \cdot dt}
-:::
-
-where the {math}`f(n)` is the normalized frequency at {math}`n'th` data point. {math}`N` is the number of data points. {math}`dt` is the sampling interval.
-It is more common to define the cutoff frequency as the half power point: where the filter response is reduced to 0.5 (-3 dB) in the power spectrum, or {math}`1/\sqrt{2} \approx 0.707` in the amplitude spectrum. Therefore, the normalized cutoff frequency is 
+where {math}`f` is the physical frequency, {math}`\alpha` is the Gaussian Factor. As the {cite:t}`monteiller2021validity` suggestion, the so called cut-off frequency can be defined as that corresponding to that the energy of the source spectrum drops to values lower than 1 per cent of the maximum.Therefore, the normalized cutoff frequency is
 
 :::{math}
-f_{cut} = \frac{\alpha}{\pi}\sqrt{-\ln(0.707dt)}
+f_{cut} = \frac{\alpha}{\pi}\sqrt{-\ln(0.01)}
 :::
 
-With the {math}`dt=0.01s`, the correspondence between Gaussian Factor and cutoff frequency is
+the correspondence between Gaussian Factor and cutoff frequency is
 
-|  Gaussian Factor   |  Cutoff Frequency (Hz) |
-| ------------------ | ---------------------- |
-|       0.5          |          0.35          |
-|       1.0          |          0.71          |
-|       1.5          |          1.06          |
-|       2.0          |          1.42          |
-|       2.5          |          1.77          |
-|       3.0          |          2.12          |
+```{figure} ./figures/gaussf.png
+:name: Gaussian factor against cut-off frequency
+```
 
 ### 2. Sampling rate
 
