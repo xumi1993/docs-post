@@ -6,7 +6,7 @@ The Specfem3D_FWATR is under developing, so it has not been open accessed.
 
 ## Preparation
 
-For RF simulation, we invoked SEM-FK with plane wave injected to compute RFs, So parameter files are same as Specfem3D and SEM-FK, but an additional parameter file is required for RF calculation. 
+For RF simulation, we invoked SEM-FK with plane wave injected to compute RFs, So parameter files are same as Specfem3D and SEM-FK, but an additional parameter file is required for RF calculation.
 
 ### Common configures
 - `DATA/Par_file`
@@ -25,7 +25,7 @@ The `DATA/CMTSOLUTION` must exist but its parameters will not work.
     - `NUM_FILTER`: Number of Gaussian filters applied on RFs.
     - `F0`: Array of Gaussian factors
     - `MAXIT`: Maximum iterations
-    - `MINDERR`: Minimum residuals 
+    - `MINDERR`: Minimum residuals
 
 ### Meshes and Parameters
 
