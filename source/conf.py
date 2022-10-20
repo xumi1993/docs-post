@@ -40,8 +40,12 @@ extensions = ['sphinx.ext.githubpages',
               "sphinx.ext.viewcode",
               "sphinxcontrib.icon",
               "sphinx_gallery.gen_gallery",
+              'sphinxcontrib.bibtex',
 ]
 
+bibtex_bibfiles = ['seismo/specfem3d/refs.bib']
+# bibtex_default_style = 'AGU'
+bibtex_reference_style = 'author_year'
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 

@@ -103,6 +103,26 @@ In the setting above, we assume the {math}`v_{min}=6500\ m/s`, where the {math}`
 
 If the size of each element bas been determined as 5 km. the maximum frequency should be less than {math}`\frac{v_{min}}{L}=1.3\ Hz`.
 
+#### Gaussian Factor and cutoff frequency
+A Gaussian low pass filter can be expressed as in frequency domain
+
+:::{math}
+G(\omega) = e^{-\frac{{\omega}^2}{4{\alpha}^2}}
+
+\omega = 2{\pi}f
+:::
+
+where {math}`f` is the physical frequency, {math}`\alpha` is the Gaussian Factor. As the {cite:t}`monteiller2021validity` suggestion, the so called cut-off frequency can be defined as that corresponding to that the energy of the source spectrum drops to values lower than 1 per cent of the maximum.Therefore, the normalized cutoff frequency is
+
+:::{math}
+f_{cut} = \frac{\alpha}{\pi}\sqrt{-\ln(0.01)}
+:::
+
+the correspondence between Gaussian Factor and cutoff frequency is
+
+```{figure} ./figures/gaussf.png
+:name: Gaussian factor against cut-off frequency
+```
 
 ### 2. Sampling rate
 
