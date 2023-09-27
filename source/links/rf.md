@@ -80,8 +80,8 @@
     Herrmann, R. B. (2013) Computer programs in seismology: An evolving tool for instruction and research, Seism. Res. Lettr. 84, 1081-1088, [doi:10.1785/0220110096](https://doi.org/10.1785/0220110096)
     :::
 - [hk & ccp](http://www.eas.slu.edu/People/LZhu/home.html): Prof. Zhu Lupei's code
-    - [{icon}`fas fa-download` hk1.3](http://www.eas.slu.edu/People/LZhu/downloads/hk1.3.tar): Receiver function package (deconvolution and H-k stacking)
-    - [{icon}`fas fa-download` ccp1.0](http://www.eas.slu.edu/People/LZhu/downloads/ccp1.0.tar): Common-Conversion-Point (CCP) stacking of receiver functions
+    - [{icon}`fa-solid fa-download` hk1.3](http://www.eas.slu.edu/People/LZhu/downloads/hk1.3.tar): Receiver function package (deconvolution and H-k stacking)
+    - [{icon}`fa-solid fa-download` ccp1.0](http://www.eas.slu.edu/People/LZhu/downloads/ccp1.0.tar): Common-Conversion-Point (CCP) stacking of receiver functions
 - [H-k-c](https://github.com/ljt-uiuc/H-k-c): Generalized H-k after harmonic correction on receiver functions
    ```{admonition} Citation
     :class: seealso

@@ -34,7 +34,7 @@ extensions = ['sphinx.ext.githubpages',
               "sphinx_cjkspace.cjkspace",
               "sphinx_copybutton",
               "sphinx_design",
-              "myst_nb",
+              "myst_parser",
               "sphinx.ext.mathjax",
               "sphinx.ext.todo",
               "sphinx.ext.viewcode",
@@ -113,7 +113,7 @@ copybutton_only_copy_prompt_lines = True
 copybutton_remove_prompts = True
 
 # options for myst-nb
-jupyter_execute_notebooks = "cache"
+nb_execution_mode = "cache"
 
 html_extra_path = []
 html_last_updated_fmt = "%Y 年 %m 月 %d 日"
