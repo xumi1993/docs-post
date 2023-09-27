@@ -22,11 +22,13 @@
     :class: seealso
     Tong, P., Komatitsch, D., Tseng, T.-L., Hung, S.-H., Chen, C.-W., Basini, P., and Liu, Q. (2014), A 3-D spectral-element and frequency-wave number hybrid method for high-resolution seismic array imaging, Geophys. Res. Lett., 41, 7025– 7034, [doi:10.1002/2014GL061644](https://doi.org/10.1002/2014GL061644).
     :::
-  - [AxiSEM](https://seg.ethz.ch/software/axisem.html): 3-D seismic wavefields propagation in axisymmetric media
+  - [Specfem3d-AxiSEM](https://gitlab.com/seismic_imaging/reghym): 3-D seismic wavefields propagation in axisymmetric media and inject into SEM domain.
     :::{admonition} Citation
     :class: seealso
 
     T. Nissen-Meyer, M. van Driel, S. C. Staehler, K. Hosseini, S. Hempel, L. Auer, A. Colombi and A. Fournier: "AxiSEM: broadband 3-D seismic wavefields in axisymmetric media", Solid Earth, 5, 425-445, 2014 [doi:10.5194/se-5-425-2014](https://doi.org/10.5194/se-5-425-2014)
+
+    Monteiller V, Beller S, Plazolles B, et al. On the validity of the planar wave approximation to compute synthetic seismograms of teleseismic body waves in a 3-D regional model[J]. Geophysical Journal International, 2021, 224(3): 2060-2076. [doi.org/10.1093/gji/ggaa570](https://doi.org/10.1093/gji/ggaa570)
     :::
 
 ## Receiver function Process

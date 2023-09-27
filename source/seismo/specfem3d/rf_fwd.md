@@ -6,7 +6,7 @@ The Specfem3D_FWATR is under developing, so it has not been open accessed.
 
 ## Preparation
 
-For RF simulation, we invoked SEM-FK with plane wave injected to compute RFs, So parameter files are same as Specfem3D and SEM-FK, but an additional parameter file is required for RF calculation. 
+For RF simulation, we invoked SEM-FK with plane wave injected to compute RFs, So parameter files are same as Specfem3D and SEM-FK, but an additional parameter file is required for RF calculation.
 
 ### Common configures
 - `DATA/Par_file`
