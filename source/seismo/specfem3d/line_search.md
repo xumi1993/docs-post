@@ -1,4 +1,4 @@
-# How to determine a optimal step length
+# How to determine an optimal step length
 
 A suitable step length will help to fast convergence of objective function. In practice, this processing may require to test a large number of step lengths, which can be huge computational costs. Thus, the Wolfe condition is used to constrain range of step length. For each iteration, we assume {math}`\phi(\alpha)` is a function of the objective function {math}`\chi` in recept to the step length {math}`\alpha`. The {math}`\phi(0)=\chi(\mathbf{m})`
 
